@@ -1,9 +1,7 @@
-## Outline
+## Fun proj
 
-This will run on raspberry pi in the apartment
+This will run on raspberry pi in the apartment. Goal is to collect consistent data on "things" and then do "stuff" with it.
 
-- speed.py
-
-`connections.py`
-
-- provides a connection with a data saving method (e.g. csv, postgres) given data from some other function
+- is my ISP providing their promised service?
+- how much does the temperature in my apartment vary during the day?
+- what's affecting the quality of my sleep?
