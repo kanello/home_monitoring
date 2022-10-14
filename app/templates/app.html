@@ -1,5 +1,10 @@
 <!doctype html>
 <html>
+  <head>
+    <title>Home Monitor</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/mystyle.css') }}">
+  </head>
  <body>
   <h1>Your internet stats, coming soon</h1>
   <div id='chart' class='chart'”></div>
@@ -11,9 +16,7 @@
   var graphs = {{graphJSON | safe}};
   Plotly.newPlot('chart',graphs,{});
 </script>
-
   <script type='text/javascript'>
-
   var graph = {{graphJSON1 | safe}};
   Plotly.newPlot('chart1',graph,{});
 </script>

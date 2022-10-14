@@ -9,7 +9,7 @@ def simple(column):
     df["timestamp"] = pd.to_datetime(df['timestamp'])
 
     # must match the columns you have in the dataframe if you're passing the whole df in
-    fig = px.scatter(df, x="timestamp", y=column)
+    fig = px.scatter(df, x="timestamp", y=column, template = "simple_white")
 
     # fig = px.scatter(df, x="timestamp", y="ping", color="species",
     #                  size='petal_length', hover_data=['petal_width'])

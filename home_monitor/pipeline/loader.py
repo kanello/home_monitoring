@@ -28,4 +28,4 @@ if __name__ == "__main__":
     data = speed.get_speeds()
 
     speed_to_sqlite(data)
-    speed_to_csv(data)
+    # speed_to_csv(data)
