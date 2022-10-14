@@ -12,7 +12,7 @@ def speed_to_csv(data):
     for keys in data:
         input_data.append(data[keys])
             
-    connections.toCSV(input_data, 'database/speedtest.csv')
+    connections.toCSV(input_data, 'home_monitor/database/speedtest.csv')
 
 def speed_to_sqlite(data):
     # data = speed.get_speeds()
@@ -26,5 +26,6 @@ def speed_to_sqlite(data):
 
 if __name__ == "__main__":
     data = speed.get_speeds()
-    speed_to_csv(data)
+
     speed_to_sqlite(data)
+    speed_to_csv(data)
