@@ -11,6 +11,7 @@ This will run on raspberry pi in the apartment. Goal is to collect consistent da
 - [x] proto-Docker installation
 - [ ] run on Raspberry Pi
 - [ ] schedule `loader.py` to run
+- [ ] add basic flask front end to run speed test charts
 
 #### Notes
 
